@@ -20,7 +20,7 @@ class mahasiswa{
         setID();
     }
 };
-int mahasiswa::nim = 239;
+int mahasiswa::nim = 0;
 void mahasiswa::setID(){
     id = ++nim;
 }
@@ -32,6 +32,7 @@ void mahasiswa::printAll() {
 int main(){
     mahasiswa mhs1("Ilam Compas");
     mahasiswa mhs2("hapis samba");
+    mahasiswa::setNim(9);
     mahasiswa mhs3("uno 13");
     mahasiswa mhs4("farhad 15");
 
@@ -39,5 +40,7 @@ int main(){
     mhs2.printAll();
     mhs3.printAll();
     mhs4.printAll();
+
+    cout << "akses dari luar object = " << mahasiswa::getNim() << endl;
     return 0;
 }
