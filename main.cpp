@@ -28,5 +28,14 @@ void mahasiswa::printAll(){
 }
 
 int main(){
-    
+    mahasiswa mhs1("Ilam Compas");
+    mahasiswa mhs2("hapis samba");
+    mahasiswa mhs3("uno 13");
+    mahasiswa mhs4("farhad 15");
+
+    mhs1.printAll();
+    mhs2.printAll();
+    mhs3.printAll();
+    mhs4.printAll();
+    return 0;
 }
