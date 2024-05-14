@@ -30,4 +30,16 @@ void cetak(){
 };
 int main(){
 
+    mahasiswa mhs1;
+    mahasiswa mhs2(20);
+    mahasiswa mhs3("uno 13");
+    mahasiswa mhs4(30, "farhad 15");
+
+    mhs1.cetak();
+    mhs2.cetak();
+    mhs3.cetak();
+    mhs4.cetak();
+    
+    return 0;
+
 }
