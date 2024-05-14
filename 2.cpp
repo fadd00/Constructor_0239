@@ -32,7 +32,7 @@ void mahasiswa::printAll() {
 int main(){
     mahasiswa mhs1("Ilam Compas");
     mahasiswa mhs2("hapis samba");
-    mahasiswa::setNim(9);
+    mahasiswa::setNim(239);
     mahasiswa mhs3("uno 13");
     mahasiswa mhs4("farhad 15");
 
