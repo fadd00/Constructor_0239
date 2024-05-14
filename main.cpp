@@ -16,6 +16,8 @@ class mahasiswa{
     }
 };
 
+int mahasiswa::nim=239;
+
 int main(){
     
 }
